@@ -7,3 +7,6 @@
 [submodule "Ionic/tabs"]
 	path = Ionic/tabs
 	url = /Users/Dev2/Documents/Miguelon/CursoIonic/Ionic/tabs
+[submodule "Ionic/Horarios"]
+	path = Ionic/Horarios
+	url = /Users/Dev2/Documents/Miguelon/CursoIonic/Ionic/Horarios
