@@ -1,3 +1,9 @@
 [submodule "proyectosAngular/primerAngular"]
 	path = proyectosAngular/primerAngular
 	url = /Users/Dev2/Documents/Miguelon/CursoIonic/proyectosAngular/primerAngular
+[submodule "Angular/PrimerAngular"]
+	path = Angular/PrimerAngular
+	url = /Users/Dev2/Documents/Miguelon/CursoIonic/Angular/PrimerAngular
+[submodule "Ionic/tabs"]
+	path = Ionic/tabs
+	url = /Users/Dev2/Documents/Miguelon/CursoIonic/Ionic/tabs
