@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Miguel Aguirre Varela</title>
+<script>
+
+function suma(){
+	var n1 = document.getElementById("valor1").value;
+	var n2 = document.getElementById("valor2").value;
+	
+	var resultado = n1 + n2;
+	document.getElementById("resultado").innerHTML = resultado;
+}
+</script>
+</head>
+<body>
+
+<header><h1>Bienvenid@s</h1></header>
+<input id="valor1" type="text" value="">
+<input id="valor2" type="text" value="">
+<button click=suma()>Suma</button>
+<div id="resultado"></div>
+</body>
+</html>

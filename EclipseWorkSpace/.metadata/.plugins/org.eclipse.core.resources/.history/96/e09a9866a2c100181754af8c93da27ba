@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Miguel Aguirre Varela</title>
+<script>
+function cambiaColor(boton){
+	document.getElementById("contenedor").style.color= boton;
+}
+</script>
+</head>
+<body>
+
+<header><h1>Bienvenid@s</h1></header>
+<div id="contenedor">
+	<p>Texto 1</p>
+	<p>Texto 2</p>
+	<p>Texto 3</p>
+	<p>Texto 4</p>
+</div>
+<label onclick="cambiaColor('red')">Rojo</label><label onclick="cambiaColor('blue')">Azul</label><label onclick="cambiaColor('green')">Verde</label>
+</body>
+</html>

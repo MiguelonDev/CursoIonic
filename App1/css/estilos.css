@@ -1,0 +1,22 @@
+.main_text{
+	text-align: justify;
+}
+
+section{
+	height: 420px;
+
+}
+
+main{
+	width: 320px; 
+	height: 480px; 
+	border: 1px solid black; 
+	margin: 0 auto;
+}
+
+nav, footer{
+	height: 20px; 
+	background-color: grey; 
+	overflow: hidden; 
+	border: 1px solid black;
+}

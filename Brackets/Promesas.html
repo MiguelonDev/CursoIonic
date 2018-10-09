@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>PRIMEROS PASOS CON BRACKETS</title>
+        <script>
+            function hilo(){
+                var promesa = new Promise(function(resolve,reject){
+                    var n1 = document.getElementById('numero1').value;
+                    var n2 = document.getElementById('numero2').value;
+                    var datos = [];
+                    if (!isNaN(n1) && !isNaN(n2)){
+                        datos[0] = n1;
+                        datos[1] = n2;
+                        resolve(datos);
+                    }else{
+                        reject("Error de datos");
+                    }
+                })
+                promesa.then(function(response){
+                    console.log(response);
+                },function(error){
+                    console.log(error);
+                });
+            }
+            
+            class Prueba{
+                constructor(){
+                }
+            }
+            
+            var clase = new Prueba();
+            var otra = clase;
+            var string = new String();
+            
+            console.log( clase instanceof Prueba);
+            console.log( otra instanceof Prueba);
+            console.log( string instanceof String);
+            console.log( typeof('hola'));
+            console.log( typeof(string));
+            
+            
+        </script>
+    </head>
+    <body>
+        <input id="numero1" type="text">
+        <input id="numero2" type="text">
+        <button onclick="hilo()">Llamada</button>
+    </body>
+</html>

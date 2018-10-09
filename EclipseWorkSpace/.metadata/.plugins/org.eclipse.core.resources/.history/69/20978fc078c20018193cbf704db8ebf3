@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Miguel Aguirre Varela</title>
+<script></script>
+</head>
+<body>
+
+<header><h1>Bienvenid@s</h1></header>
+<input id="valor1" type="text" value="">
+<input id="valor2" type="text" value="">
+</body>
+</html>

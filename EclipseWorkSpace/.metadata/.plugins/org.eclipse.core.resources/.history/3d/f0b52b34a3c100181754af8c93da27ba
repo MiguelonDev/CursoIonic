@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Miguel Aguirre Varela</title>
+<script>
+function init(){
+	var oculto = document.querySelectorAll('#contenedor p');
+	for (var i = 0; i<= oculto.lenght; i++){
+		oculto[i].style.visibility= 'hidden';
+	}
+}
+window.onload=init;
+</script>
+</head>
+<body>
+
+<header><h1>Bienvenid@s</h1></header>
+<div id="contenedor">
+	<p>Texto 1</p>
+	<p>Texto 2</p>
+	<p>Texto 3</p>
+	<p>Texto 4</p>
+</div>
+</body>
+</html>
