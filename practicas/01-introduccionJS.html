@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+   <head>
+      <title>Introducción a Javascript</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <h1>What can JavaScript do?</h1>
+      <hr>
+      <h2>JavaScript can change HTML content.</h2>
+
+      <p id="demoENG">JavaScript can change HTML content.</p>
+
+      <button type="button" onclick='document.getElementById("demoENG").innerHTML = "Hello JavaScript!"'>Click me!</button>
+
+      <p id="demoESP">JavaScript puede cambiar el contenido HTML.</p>
+
+      <button type="button" onclick='document.getElementById("demoESP").innerHTML = "Hola JavaScript!"'>Púlsame!</button>
+
+      <p id="demoFRA">JavaScript peut modifier le contenu HTML.</p>
+
+      <button type="button" onclick='document.getElementById("demoFRA").innerHTML = "Salut JavaScript!"'>Clique moi!</button>
+      <hr>
+
+      <h2>JavaScript Can Change HTML Attribute Values</h2>
+      <p>In this example JavaScript changes the value of the src (source) attribute of an &#60img&#62 tag:</p>
+
+      <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+      <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+      <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+
+      <hr>
+
+      <h2>JavaScript Can Change HTML Styles (CSS)</h2>
+      <p id="changeSize">Texto que cambia de tamaño</p>
+
+      <button onclick="document.getElementById('changeSize').style.fontSize = '35px';">Amplía a 35px</button>
+      <button onclick="document.getElementById('changeSize').style.fontSize = '75px';">Amplía a 75px</button>
+
+      <p id="changeColor">Texto que cambia de color</p>
+      <button onclick="document.getElementById('changeColor').style.color = 'red';">Rojo</button>
+      <button onclick="document.getElementById('changeColor').style.color = 'green';">Verde</button>
+      <button onclick="document.getElementById('changeColor').style.color = 'blue';">Azul</button>
+
+   </body>
+   
+</html>
