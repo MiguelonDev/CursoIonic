@@ -1,6 +1,8 @@
 solución IOS.
 
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+1. sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+2. Ionic cordova platform add ios
+3. Ionic cordova build ios
 
 solución para Android, 
 
