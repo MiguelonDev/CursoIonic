@@ -1,0 +1,17 @@
+solución IOS.
+
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+solución para Android, 
+
+1. acceder a fichero gradle.wapper.properties
+
+modificar variable, distributionUrl --> poned la distribucción solicitada en el error, 
+
+distributionUrl=\https\://services.gradle.org/distributions/gradle-4.1-rc-1-all.zip
+
+2. acceder a fichero build.gradle y modificar la dependencia de gradle. 
+
+dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-beta4'
+    }
